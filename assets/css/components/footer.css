@@ -1,0 +1,30 @@
+footer {
+    background-color: #f06292;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+/* Responsive */
+/* Tablet */
+@media (max-width: 768px) {
+    footer {
+        padding: 0.8rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    footer {
+        padding: 0.6rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
